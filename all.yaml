@@ -1,126 +1,66 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|690KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 216.24.57.1
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /assignment
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|790KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-      port: "443"
-      server: gta.internet-card.sbs
-      skip-cert-verify: true
-      sni: gta.internet-card.sbs
-      type: hysteria2
-      up: ""
     - alpn:
         - h2
         - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2|825KB/s"
-      network: ws
-      password: humanity
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1|688KB/s"
+      network: xhttp
       port: "443"
-      server: 162.159.136.234
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_3|699KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 165.215.250.14
-      skip-cert-verify: true
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /assignment
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s"
-      password: c49c4727-d6e8-41ba-adc6-1f1f3c48e4a5
-      port: 40042
-      server: kr2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-      password: c49c4727-d6e8-41ba-adc6-1f1f3c48e4a5
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
-      password: c49c4727-d6e8-41ba-adc6-1f1f3c48e4a5
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.9MB/s"
-      password: c49c4727-d6e8-41ba-adc6-1f1f3c48e4a5
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|659KB/s"
-      password: c49c4727-d6e8-41ba-adc6-1f1f3c48e4a5
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
-      udp: true
-    - auth: 755d3d04-234a-435b-8371-99d4c912e891
-      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
-      obfs: salamander
-      obfs-password: uqmgFZmVNHNYGxaH
-      password: 755d3d04-234a-435b-8371-99d4c912e891
-      port: 39999
-      server: jjz.jjznodenode.top
-      skip-cert-verify: false
-      sni: jjz.jjznodenode.top
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|612KB/s"
-      password: ""
-      port: 8094
-      server: 110.80.25.76
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|687KB/s"
-      network: tcp
-      port: "443"
-      server: 31.76.5.158
-      servername: norway-3.moritech.net
+      server: 91.84.115.34
+      servername: ned-01.letsgodance.site
       tls: true
       type: vless
       udp: true
-      uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+      uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+      xhttp-opts:
+        host: ned-01.letsgodance.site
+        path: /xh
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_2|607KB/s"
-      password: c58d16e593d44f42
-      port: 11001
-      server: 158.173.221.214
-      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|931KB/s"
+      network: ws
+      port: "443"
+      server: 172.67.169.35
+      servername: 7-M16.pAttAYa-8.kdnS.fR
+      tls: true
+      type: vless
       udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 7-M16.pAttAYa-8.kdnS.fR
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      network: ws
+      port: "443"
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: sL-WH6OA3-ed-5vxu5wWuTmQ-8Y4Fbfpx24kkgu3s1M
+        short-id: 17b3b79c
+      server: 77.90.52.36
+      servername: de5.wequ.host
+      tls: true
+      type: vless
+      udp: true
+      uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+      xudp: true
