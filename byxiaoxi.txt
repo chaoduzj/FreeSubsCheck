@@ -1,1 +1,1 @@
-vless://0c9b603a-a90a-4e59-85c1-d3915456a727@amern.pages.dev:443?security=tls&type=ws&path=%2F&host=amern.pages.dev&packetEncoding=xudp&sni=amern.pages.dev&fp=chrome&encryption=none#%F0%9F%87%BA%F0%9F%87%B8US_1%7C2.1MB%2Fs
+vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@170.168.99.8:443?security=reality&type=xhttp&path=%2F&packetEncoding=xudp&sni=www.epson.com&fp=chrome&pbk=-GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28&mode=auto&encryption=none#%F0%9F%87%B7%F0%9F%87%BARU_1%7C1.4MB%2Fs
