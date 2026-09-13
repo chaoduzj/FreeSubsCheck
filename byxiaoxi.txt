@@ -1,1 +1,1 @@
-vless://0eea2d4c-9bde-40a7-bf57-3d5a9a8caeab@cepheus.yokkastars.com:40443?security=reality&type=tcp&packetEncoding=xudp&sni=deepl.com&fp=qq&flow=xtls-rprx-vision&sid=ec70d3b2b6298ba1&pbk=i63mOV0i35u-2VR7mpaVC0XML1dS7s6XmzAlff50Eic#%F0%9F%87%B3%F0%9F%87%B1NL_2%7C637KB%2Fs
+vless://0c9b603a-a90a-4e59-85c1-d3915456a727@amern.pages.dev:443?security=tls&type=ws&path=%2F&host=amern.pages.dev&packetEncoding=xudp&sni=amern.pages.dev&fp=chrome&encryption=none#%F0%9F%87%BA%F0%9F%87%B8US_1%7C2.1MB%2Fs
