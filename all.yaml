@@ -1,53 +1,34 @@
 proxies:
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s"
+      password: amazonskr05
       port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
+      server: 15.237.218.241
+      type: ss
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
-      network: ws
-      port: "443"
-      server: 154.64.236.54
-      servername: thus-k.netnode.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: b82330a7-c64a-46a4-b109-e71b63cb26c4
-      ws-opts:
-        headers:
-            Host: thus-k.netnode.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /t.me/daily_free_vpn
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7TR_1|1.6MB/s"
-      port: 9443
+      name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s"
+      network: tcp
+      port: "2065"
       reality-opts:
-        public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-        short-id: e336c9a786fae301
-      server: 13.143.137.164
-      servername: plaincanvas.videoclothing.xyz
-      skip-cert-verify: true
+        public-key: Z1Ni4Mf6JhWIqHA0Dm8o3wzVUshi1kcvEwmhgdHbaiw
+        short-id: 5aff625b0c5e16a7
+      server: 46.8.224.214
+      servername: www.homedepot.com
       tls: true
       type: vless
       udp: true
-      uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.3MB/s"
-      network: ws
-      port: 443
-      server: 8.222.84.103
-      servername: cdn8848.776676.xyz
+      uuid: db16ca51-d1e1-4588-88e2-06ef336474c2
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E8\U0001F1FFCZ_1|2.7MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
+      port: "443"
+      server: fast.news.gazette.help
       skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: cdn8848.776676.xyz
-        path: /member/discount?ed=2560
+      sni: cz.h2.cleanersaz.help
+      type: hysteria2
+      up: ""
