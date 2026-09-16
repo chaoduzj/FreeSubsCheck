@@ -1,57 +1,333 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|731KB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.149.6.228
-      type: ss
-      udp: true
-    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1EC\U0001F1E7GB_1|532KB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-uk-001.fastervpn.world
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1E9\U0001F1EADE_1|3.3MB/s"
+      network: ws
+      port: 23351
+      server: 185.217.108.229
+      servername: cdn8848.776676.xyz
       skip-cert-verify: true
-      sni: vpn-uk-001.fastervpn.world
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
-      port: 1080
-      server: 103.210.161.8
-      skip-cert-verify: false
-      type: socks5
-    - name: "\U0001F1FA\U0001F1F8US_2|942KB/s"
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: cdn8848.776676.xyz
+        path: /help?ed=2560
+    - name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
       port: 1092
       server: 104.244.95.184
       type: http
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
-      network: ws
-      port: "443"
-      server: 82259754d625.oylfmxz.cn
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-      ws-opts:
-        headers:
-            Host: 82259754d625.oylfmxz.cn
-        path: /
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1159
-      name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
-      password: amazonskr05
+    - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      password: ""
       port: 443
-      server: 15.237.137.134
-      type: ss
+      server: 149.88.21.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 624
-      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
       password: amazonskr05
       port: 443
       server: 18.191.174.144
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 42721
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_2|5.4MB/s"
+      network: tcp
+      port: 25984
+      reality-opts:
+        public-key: 3pc5QvEW7DmfWF9NaByJeXmiyLKlnjuGRir_bJL9ryc
+        short-id: 620750bd
+      server: cdn-bbk.hulku.cn
+      servername: cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 807c72c1-72a6-4667-9b11-47e6be54196a
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 23639
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 56512
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 6740
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 29988
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 13599
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_6|2.2MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 51467
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FB\U0001F1F3VN_1|2.1MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 24308
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 50155
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_3|3.6MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 58490
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F0\U0001F1F7KR_1|3.7MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 25997
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_2|3.3MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 49642
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1ECSG_1|3.5MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 57598
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 8135
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1ECSG_2|2.0MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 37923
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_4|2.6MB/s"
+      password: ff695a0d-af67-48b7-a3e9-6c2c35fd4788
+      port: 8641
+      server: pop.defuzhuanfa.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_3|691KB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 555c9ebb-d8cc-4731-8d46-8d9e3fd0e93c
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_4|723KB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 20872e77-ab26-4ce6-9f3b-7691e80990d8
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_5|888KB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3b84e54e-7f09-4a7c-91d4-7660dac7047c
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_6|1.1MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7eb44724-d792-4133-90ef-0bc0f55fec20
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_7|1.3MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0020d562-2a44-4462-8d79-de0cdb5599bc
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_8|1.0MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8ea00d02-1e73-48bf-8708-ed35b5639559
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_9|1.2MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4eac567e-8ed4-453e-975b-89763b6beb0a
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_5|593KB/s"
+      network: tcp
+      port: 25984
+      reality-opts:
+        public-key: 3pc5QvEW7DmfWF9NaByJeXmiyLKlnjuGRir_bJL9ryc
+        short-id: 620750bd
+      server: cdn-bbk.hulku.cn
+      servername: cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: aeb8f7f9-0117-48b0-a6a4-d3af0a007130
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_10|1.1MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3f9fd6f8-8128-40ed-9064-61560f463d1c
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_11|1.1MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: e0909ea6-58fc-4391-b3cc-ce7ebacf66c1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_12|1.1MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fea25dbd-b9d6-4f87-b9cd-af8a44c64e43
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_13|1.1MB/s"
+      network: tcp
+      port: 32001
+      reality-opts:
+        public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+        short-id: dfa28122
+      server: sie824.node2.top
+      servername: itunes.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7160d49-67c4-4c6f-89c7-d8c3e9a9290a
