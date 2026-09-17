@@ -1,150 +1,13 @@
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|547KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 216.24.57.7
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2|906KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 86.38.214.205
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 188.114.97.7
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_4|1.1MB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 162.159.136.234
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_5|1.0MB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 130.250.137.171
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_6|967KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: ip.myip2.qzz.io
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /assignment
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_7|1.5MB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 45.130.125.76
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: assignment
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
-      password: a30b1f4d-0ef4-41c3-833d-84e1f61b7ecb
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_2|7.0MB/s"
-      password: a30b1f4d-0ef4-41c3-833d-84e1f61b7ecb
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_3|7.9MB/s"
-      password: a30b1f4d-0ef4-41c3-833d-84e1f61b7ecb
-      port: 40073
-      server: tw3.catzl.top
-      type: anytls
-      udp: true
-    - client-fingerprint: chrome
-      name: ❓Other_1|2.4MB/s
-      network: ws
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+      password: amazonskr05
       port: 443
-      server: w3.lianjieni.com
-      servername: w3.lianjieni.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 869695a6-8bb5-40e0-a1a5-bbaa8e8bfb30
-      ws-opts:
-        headers:
-            Host: w3.lianjieni.com
-        path: /cdnws
-    - auth: 755d3d04-234a-435b-8371-99d4c912e891
-      name: ❓Other_2|1.6MB/s
-      obfs: salamander
-      obfs-password: CJzHgzdjH1M1kt25
-      password: 755d3d04-234a-435b-8371-99d4c912e891
-      port: 40000
-      server: jjz.jjznodenode.top
-      skip-cert-verify: false
-      sni: jjz.jjznodenode.top
-      type: hysteria2
-      udp: true
+      server: 3.149.6.228
+      type: ss
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT_1|1.5MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -157,7 +20,7 @@ proxies:
       uuid: 32721515-985b-4773-9e70-5d2e1b88a060
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|521KB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -168,121 +31,47 @@ proxies:
       type: vless
       udp: true
       uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-    - client-fingerprint: chrome
-      encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s"
-      network: xhttp
-      port: "443"
-      server: 199.232.79.166
-      servername: cdn.fastly.com
-      tls: true
-      type: vless
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s"
+      password: ""
+      port: 1080
+      server: 83.147.216.208
+      type: socks5
       udp: true
-      uuid: 78b82738-ac86-4a6e-8a78-fdb3b52f500a
-      xhttp-opts:
-        host: telegram-uonvpn.global.ssl.fastly.net
-        mode: auto
-        path: /@UonVPN-**--@UonVPN-*-@UonVPN--*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
-        x-padding-bytes: 100-1000
-      xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+      port: 1092
+      server: 104.244.95.184
       type: http
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_8|1.6MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.39.233.161
-      type: ss
-    - name: "\U0001F1EB\U0001F1F7FR_9|1.5MB/s"
-      port: 6103
-      server: 87.98.174.157
-      skip-cert-verify: true
-      tls: true
+    - name: "\U0001F1F1\U0001F1FELY_1|2.1MB/s"
+      port: 8520
+      server: 102.23.220.66
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1FARU_1|925KB/s"
-      port: 49156
-      server: 45.132.252.25
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.7MB/s"
-      password: "null"
-      port: 443
-      server: 51.158.243.91
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EB\U0001F1F7FR_10|691KB/s"
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s"
       network: ws
-      port: 2053
-      server: 31.59.121.156
-      servername: cdn8848.776676.xyz
-      skip-cert-verify: true
+      port: 443
+      server: 188.114.98.0
+      servername: or.mirikhan.dpdns.org
       tls: true
       type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      udp: true
+      uuid: V2XNET
       ws-opts:
         headers:
-            Host: cdn8848.776676.xyz
-        path: /go/library/channel?ed=2560
-    - name: "\U0001F1F9\U0001F1F7TR_1|963KB/s"
-      port: 8085
-      server: 212.175.50.80
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.8MB/s"
-      port: 443
-      server: 185.246.153.28
-      skip-cert-verify: true
-      sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.7MB/s"
-      password: "null"
-      port: 9002
-      server: 193.176.84.38
-      skip-cert-verify: true
-      sni: 193.176.84.38
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1F7\U0001F1F4RO_3|1.6MB/s"
-      password: ""
-      port: 9002
-      server: 193.176.84.21
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.7MB/s"
-      password: "null"
-      port: 9002
-      server: 193.176.84.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
+            Host: or.mirikhan.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /xvpnws/
+      xudp: true
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_3|893KB/s"
+      name: "\U0001F1E9\U0001F1EADE_4|2.1MB/s"
       obfs: ""
       port: 54177
       protocol: udp
@@ -291,405 +80,131 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
-    - name: "\U0001F1F7\U0001F1F4RO_5|690KB/s"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-      network: grpc
-      port: "9880"
-      reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-        short-id: aabb
-      server: 176.123.162.100
-      servername: dl.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-      xudp: true
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: grpc
-      name: "\U0001F1F0\U0001F1FFKZ_1|2.1MB/s"
-      network: grpc
-      port: "8443"
-      reality-opts:
-        public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-        short-id: "08"
-      server: kz.cdn-update.rutube.info
-      servername: dest1.cdn-update.rutube.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_2|752KB/s"
-      password: amazonskr05
-      port: "443"
-      server: 3.148.252.26
-      type: ss
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|762KB/s"
-      port: 9002
-      server: 193.176.84.40
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_7|2.1MB/s"
-      port: 9002
-      server: 193.176.84.33
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: ❓Other_3|968KB/s
-      port: 9002
-      server: 193.176.84.17
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_8|615KB/s"
-      port: 9002
-      server: 193.176.84.30
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_9|2.0MB/s"
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s"
-      network: ws
-      port: "2086"
-      server: 188.114.97.2
-      type: vless
-      udp: true
-      uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-      ws-opts:
-        headers:
-            Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /vl/ikccafxfZ8tDV11MQjtVmuGhgJbO8?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|1.4MB/s"
       network: ws
       port: "443"
-      server: 104.21.36.81
-      servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+      server: 151.101.56.6
+      servername: ssl.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
       ws-opts:
         headers:
-            Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
       xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_2|1.4MB/s"
       network: ws
       port: "443"
-      server: 172.67.136.68
-      servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+      server: a2.arshia-nova.ir
+      servername: ssl.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
       ws-opts:
         headers:
-            Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6|1.9MB/s"
-      network: ws
-      port: "443"
-      server: 172.67.145.113
-      servername: 6-M16.AYUTThaYA2028.KdNs.fr
-      tls: true
-      type: vless
-      udp: true
-      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-      ws-opts:
-        headers:
-            Host: 6-M16.AYUTThaYA2028.KdNs.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7|1.1MB/s"
-      network: ws
-      port: "443"
-      server: 172.67.206.64
-      servername: 3-M16.ayUTthAYa2032.kdNs.FR
-      tls: true
-      type: vless
-      udp: true
-      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-      ws-opts:
-        headers:
-            Host: 3-M16.ayUTthAYa2032.kdNs.FR
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4|1.8MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 212.16.92.112
-      servername: jobinvest.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1ECBG_1|1.5MB/s"
-      network: ws
-      port: "443"
-      server: 104.152.48.248
-      servername: kkkk-8oc.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-      ws-opts:
-        headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_5|516KB/s"
-      network: tcp
-      port: "20443"
-      reality-opts:
-        public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-        short-id: "08"
-      server: 89.106.88.6
-      servername: dest1.cdn-update.rutube.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
-      network: ws
-      port: "443"
-      server: 43.174.195.1
-      servername: kkkk-8oc.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-      ws-opts:
-        headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|2.1MB/s"
-      network: ws
-      port: "443"
-      server: 45.32.248.233
-      servername: mia12.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-      ws-opts:
-        headers:
-            Host: mia12.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /TG:@MiaChatChannel
-      xudp: true
-    - client-fingerprint: random
-      name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
-      network: ws
-      port: "8443"
-      server: 150.251.113.76
-      servername: kv.074167.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-      ws-opts:
-        headers:
-            Host: kv.074167.xyz
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_3|1.2MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|552KB/s"
       network: ws
-      port: "8443"
-      server: 74.222.12.199
-      servername: mia7.pages.dev
-      tls: true
-      type: vless
+      password: humanity
+      port: "443"
+      server: 188.114.97.7
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
       ws-opts:
         headers:
-            Host: mia7.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /TG:@MiaChatChannel
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_11|2.2MB/s"
-      network: ws
-      port: "8443"
-      server: 104.194.84.188
-      servername: kkkk-8oc.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-      ws-opts:
-        headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1F7BR_1|1.0MB/s"
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /assignment
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_3|1.8MB/s"
       network: ws
       port: "443"
-      server: 104.64.59.22
-      servername: kkkk-8oc.pages.dev
+      server: k2.cloud--vpn.site
+      servername: ssl.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+      uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
       ws-opts:
         headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: firefox
-      name: "\U0001F1EB\U0001F1EEFI_1|1.9MB/s"
-      network: ws
-      port: "443"
-      server: fxe3.sorixset.ir
-      servername: global.fastly.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d7282b41-1f2a-47bb-8593-f464fd6b6d78
-      ws-opts:
-        headers:
-            Host: kayko.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1F1PL_2|2.4MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2|874KB/s"
       network: ws
+      password: humanity
       port: "443"
-      server: 103.167.234.26
-      servername: kkkk-8oc.pages.dev
+      server: 104.26.15.137
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_4|841KB/s"
+      network: tcp
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-      ws-opts:
-        headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-        path: /?ed=2048
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1F7TR_1|1.1MB/s"
+      network: tcp
+      port: "23957"
+      server: 91.228.227.211
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 92987ab8-0a53-4a16-8d6c-295d5df86404
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_3|617KB/s"
       network: ws
+      password: humanity
       port: "443"
-      server: 110.10.178.240
-      servername: kkkk-8oc.pages.dev
-      tls: true
-      type: vless
+      server: 86.38.214.205
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
       ws-opts:
         headers:
-            Host: kkkk-8oc.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_2|661KB/s"
-      network: ws
-      port: "443"
-      server: 110.10.178.240
-      servername: mia11.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-      ws-opts:
-        headers:
-            Host: mia11.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /TG:@MiaChatChannel
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_3|2.9MB/s"
-      network: ws
-      port: "443"
-      server: 134.185.99.52
-      servername: mia9.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-      ws-opts:
-        headers:
-            Host: mia9.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /TG:@MiaChatChannel
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_4|1.4MB/s"
-      network: ws
-      port: "8443"
-      server: 119.28.162.39
-      servername: mia11.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-      ws-opts:
-        headers:
-            Host: mia11.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /TG:@MiaChatChannel
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_6|2.0MB/s"
-      password: amazonskr05
-      port: 443
-      server: 52.28.158.0
-      type: ss
-      udp: true
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /assignment
