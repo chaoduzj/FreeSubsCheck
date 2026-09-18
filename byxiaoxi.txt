@@ -1,10 +1,7 @@
-hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?sni=news.gazette.help#%F0%9F%87%AA%F0%9F%87%AAEE_1%7C1.7MB%2Fs
-hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?insecure=1&sni=www.microsoft.com#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C2.1MB%2Fs
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@files.fastline-labs.com:443?sni=files.fastline-labs.com#%F0%9F%87%B3%F0%9F%87%B1NL_2%7C609KB%2Fs
-vless://cc3ec459-8d76-4066-ab4b-2614608f1afb@151.101.56.6:443?security=tls&type=ws&path=%2F%3FTELEGRAM--KANAL--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray&host=c12.com&packetEncoding=xudp&alpn=h2&sni=ssl.fastly.com&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C1.5MB%2Fs
-hysteria2://f89c89df-905c-4df3-ab07-4f1a37a81005@api.fastline-labs.com:443?sni=api.fastline-labs.com#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.6MB%2Fs
-hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AADE_2%7C2.5MB%2Fs
-hysteria://5.83.129.153:20088?alpn=h3&auth=dongtaiwang.com&downmbps=1000&protocol=udp&insecure=1&peer=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AADE_3%7C2.6MB%2Fs
-vless://c26fe2f0-5c69-000B-8a1a-bf116ceb9215@jsv-de1.jmovies.ir:443?security=reality&type=tcp&packetEncoding=xudp&sni=numpy.org&fp=firefox&sid=f373df45a687eaff&pbk=fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_4%7C1.4MB%2Fs
-vless://c26fe2f0-5c69-000B-8a1a-bf116ceb9215@jsv-ir2.jmovies.ir:443?security=reality&type=tcp&packetEncoding=xudp&sni=aparat.com&fp=firefox&sid=f373df45a687eaff&pbk=fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_5%7C739KB%2Fs
-vless://c8f3f81a-5276-48e9-af6b-c537fb4c7856@172.67.183.52:80?security=none&type=ws&path=%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560&host=r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev&packetEncoding=xudp#%F0%9F%87%BA%F0%9F%87%B8US_1%7C578KB%2Fs
+hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?insecure=1&sni=www.microsoft.com#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C1.7MB%2Fs
+vless://cc3ec459-8d76-4066-ab4b-2614608f1afb@151.101.56.6:443?security=tls&type=ws&path=%2F%3FTELEGRAM--KANAL--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray--%40mainv2ray&host=c12.com&packetEncoding=xudp&alpn=h2&sni=ssl.fastly.com&fp=chrome&encryption=none#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C535KB%2Fs
+hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.7MB%2Fs
+hysteria://5.83.129.153:20088?alpn=h3&auth=dongtaiwang.com&downmbps=1000&protocol=udp&insecure=1&peer=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AADE_2%7C2.1MB%2Fs
+vless://cc3ec459-8d76-4066-ab4b-2614608f1afb@a2.arshia-nova.ir:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=xudp&alpn=h2&sni=ssl.fastly.com&fp=firefox&encryption=none#%F0%9F%87%AB%F0%9F%87%AEFI_2%7C849KB%2Fs
+vless://06bfb14e-66cc-48ca-a429-b9301dba2f81@104.17.123.204:8880?security=none&type=ws&path=%2F&host=long-firefly-a226.216-ce0.workers.dev&packetEncoding=xudp#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C561KB%2Fs
+trojan://humanity@162.159.136.234:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C630KB%2Fs
