@@ -1,137 +1,70 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
-      password: f317b5d6-d399-4d3d-a051-89d674ae953c
-      port: 443
-      server: msk.frkn.org
-      tls: false
+    - auth: github.com/Alvin9999-newpac/fanqiang
+      name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 29900
+      server: 178.18.147.66
+      skip-cert-verify: true
+      sni: www.microsoft.com
       type: hysteria2
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: TunService
-      name: "\U0001F1EB\U0001F1EEFI_1|1.4MB/s"
-      network: grpc
-      port: "8443"
-      reality-opts:
-        public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-        short-id: ""
-      server: 104.245.240.9
-      servername: download.nvidia.com
-      tls: true
-      type: vless
       udp: true
-      uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_2|1.7MB/s"
-      network: xhttp
-      port: "443"
-      reality-opts:
-        public-key: skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU
-        short-id: ""
-      server: 104.245.240.8
-      servername: download.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
-      xhttp-opts:
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: TunService
-      name: "\U0001F1EB\U0001F1EEFI_3|1.7MB/s"
-      network: grpc
-      port: "8443"
-      reality-opts:
-        public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-        short-id: ""
-      server: 104.245.240.8
-      servername: www.epson.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
-      xudp: true
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-      password: ""
-      port: 443
-      server: 185.235.0.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.6MB/s"
-      password: None
-      port: 443
-      server: 37.120.233.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_1|560KB/s"
-      password: None
-      port: 443
-      server: 149.36.50.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_3|674KB/s"
-      password: None
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_4|1.8MB/s"
-      password: None
-      port: 443
-      server: 185.235.0.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1F8\U0001F1EASE_1|778KB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
       network: ws
-      port: 2053
-      server: 109.107.155.76
-      servername: cdn8848.776676.xyz
+      port: 443
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
       skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
       ws-opts:
         headers:
-            Host: cdn8848.776676.xyz
-        path: /tv/member/auth?ed=2560
-    - name: "\U0001F1E8\U0001F1EDCH_2|742KB/s"
-      password: None
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    - name: "\U0001F1F1\U0001F1FELY_1|1008KB/s"
+      port: 8520
+      server: 102.23.220.66
       type: http
-      username: null
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.1MB/s"
-      password: None
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1FAAU_1|1.6MB/s"
+      network: tcp
       port: 443
-      server: 185.216.35.66
+      reality-opts:
+        public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+        short-id: d725f0dd8cce210f
+      server: 34.87.244.111
+      servername: www.cloudflare.com
       skip-cert-verify: true
+      tfo: false
       tls: true
-      type: http
-      username: null
+      type: vless
+      uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+      obfs: ""
+      port: 54177
+      protocol: udp
+      server: 5.83.129.90
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+        short-id: ae682368818bd6c5
+      server: 34.155.10.226
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+      xudp: true
