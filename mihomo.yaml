@@ -1,19 +1,11 @@
 proxies:
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT_1|551KB/s"
-    network: tcp
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|671KB/s"
+    password: amazonskr05
     port: 443
-    reality-opts:
-      public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
-      short-id: "4fa44664f6a566d3"
-    server: lt.aether-runet.top
-    tls: true
-    type: vless
+    server: 15.237.210.147
+    type: ss
     udp: true
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    xudp: true
-    servername: lt.aether-runet.top
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
