@@ -1,58 +1,102 @@
 proxies:
-  - fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s"
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: 6ivh.pnuqcnp.cn
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 26774
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_2|5.1MB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7007
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_1|784KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7015
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_3|746KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7016
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1EF\U0001F1F5JP_1|607KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7012
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: rc4-md5
+    name: "\U0001F1F0\U0001F1F7KR_1|700KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 58427
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1F8\U0001F1ECSG_1|541KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 18566
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - name: "\U0001F1ED\U0001F1F0HK_4|1.5MB/s"
+    password: dCwrni
+    port: 7008
+    server: api.meituan88.com
     skip-cert-verify: true
-    sni: images.ctfassets.net
+    sni: globalnetworktraffic.com
     type: anytls
     udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_1|657KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-      short-id: "ea6b43"
-    server: hk4.miyazono-kaori.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1d6c2ce7-7b05-40cb-8779-bb1ade0899ce
-    servername: hk4e-launcher-static.hoyoverse.com
-  - auth: fcc91034-a05d-4da1-ab38-422b21987ff9
-    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
-    password: fcc91034-a05d-4da1-ab38-422b21987ff9
-    port: 50848
-    server: 108.181.5.1
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-  - auth: fcc91034-a05d-4da1-ab38-422b21987ff9
-    name: "\U0001F1ED\U0001F1F0HK_2|3.6MB/s"
-    password: fcc91034-a05d-4da1-ab38-422b21987ff9
-    port: 51689
-    server: 82.152.160.245
-    skip-cert-verify: true
-    sni: iosapps.itunes.apple.com
-    type: hysteria2
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    port: 20561
-    server: msjp1.mangshe.xyz
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    up: ''
+  - cipher: chacha20-ietf
+    name: "\U0001F1F9\U0001F1FCTW_2|1.1MB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7018
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_5|609KB/s"
+    obfs: plain
+    obfs-param: 33f313723.douyin.com
+    password: di15PV
+    port: 7001
+    protocol: auth_aes128_md5
+    protocol-param: '313723:dCwrni'
+    server: api.meituan88.com
+    type: ssr
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
