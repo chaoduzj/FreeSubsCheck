@@ -1,23 +1,39 @@
 proxies:
-  - name: "\U0001F1E9\U0001F1F0DK_1|673KB/s"
-    port: 9443
-    server: 185.245.84.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_1|652KB/s"
-    port: 443
-    server: 212.102.63.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F1\U0001F1FBLV_1|519KB/s"
-    password: None
-    port: 443
-    server: 109.248.147.66
-    skip-cert-verify: true
-    tls: true
-    type: http
+  - name: "\U0001F1F9\U0001F1FCTW_1|3.7MB/s"
+    password: 88ecf96b-e253-4e47-9e3b-47880cf221f2
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
+    password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+    port: 17965
+    server: jjz.jjznodenode.top
+    type: anytls
+    udp: true
+    sni: jjz.jjznodenode.top
+  - name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s"
+    password: 88ecf96b-e253-4e47-9e3b-47880cf221f2
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_2|834KB/s"
+    password: 6a561fea-d717-4fd1-93f3-097f3f83ef1c
+    port: 17964
+    server: jjz.jjznodenode.top
+    type: anytls
+    udp: true
+    sni: jjz.jjznodenode.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.3MB/s"
+    password: 88ecf96b-e253-4e47-9e3b-47880cf221f2
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
