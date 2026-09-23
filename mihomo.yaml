@@ -1,98 +1,13 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|1.2MB/s"
-    network: ws
-    port: 443
-    server: 202.166.187.132
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-    ws-opts:
-      headers:
-        Host: f.yoptybla.ru
-      path: /
-    servername: f.yoptybla.ru
-  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
-    password: test123
+  - name: "\U0001F1E8\U0001F1F3CN_1|1.3MB/s"
+    password: T2c9PTpPZz09
     port: 1080
-    server: 104.168.249.36
-    skip-cert-verify: false
+    server: 103.210.161.8
+    skip-cert-verify: true
     type: socks5
-    username: test123
-  - name: "\U0001F1EE\U0001F1EAIE_1|1.3MB/s"
-    password: None
-    port: 443
-    server: 149.88.96.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
-    password: None
-    port: 9443
-    server: 37.120.233.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1E8\U0001F1FFCZ_1|821KB/s"
-    password: None
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1E9\U0001F1F0DK_1|725KB/s"
-    password: None
-    port: 443
-    server: 185.245.84.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_2|944KB/s"
-    password: None
-    port: 443
-    server: 212.102.63.61
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1E8\U0001F1EDCH_1|2.2MB/s"
-    password: None
-    port: 443
-    server: 31.7.62.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_1|6.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 54.199.248.166
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_2|1011KB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.179.111.96
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_3|4.8MB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.230.153.249
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_4|5.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.231.184.186
-    type: ss
-    udp: true
+    username: T2c9PTpPZz09
   - fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_1|4.0MB/s"
     password: 9sK2mP8xQ7vL3nZ6
     port: 443
     server: 6ivh.pnuqcnp.cn
@@ -101,65 +16,149 @@ proxies:
     type: anytls
     udp: true
     username: 9sK2mP8xQ7vL3nZ6
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_2|613KB/s"
-    password: amazonskr05
+  - client-fingerprint: chrome
+    name: ❓Other_1|2.3MB/s
+    network: ws
     port: 443
-    server: 18.207.155.184
-    type: ss
+    server: w3.lianjieni.com
+    tls: true
+    type: vless
     udp: true
-  - name: "\U0001F1E9\U0001F1EADE_1|621KB/s"
+    uuid: 1048c358-9752-4488-83f5-7bb9f2effcb5
+    ws-opts:
+      headers:
+        Host: w3.lianjieni.com
+      path: /cdnws
+    servername: w3.lianjieni.com
+  - name: "\U0001F1F7\U0001F1F8RS_1|819KB/s"
+    port: 443
+    server: 146.70.221.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EB\U0001F1F7FR_1|861KB/s"
+    password: None
+    port: 443
+    server: 149.102.245.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F8\U0001F1EASE_1|1.2MB/s"
+    password: None
+    port: 443
+    server: 146.70.242.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E8\U0001F1FFCZ_1|650KB/s"
+    port: 443
+    server: 185.216.35.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
+    password: None
+    port: 443
+    server: 185.235.0.66
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F1\U0001F1FBLV_1|868KB/s"
+    password: None
+    port: 443
+    server: 109.248.149.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_2|1.3MB/s"
+    port: 443
+    server: 185.235.0.98
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
     port: 443
     server: 87.249.132.97
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "\U0001F1EC\U0001F1E7GB_3|2.0MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|759KB/s"
     port: 443
-    server: 212.102.63.31
+    server: 149.36.51.129
     skip-cert-verify: true
     tls: true
     type: http
-  - name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    password: ''
-    port: 7070
-    server: 20.83.154.79
+  - name: "\U0001F1E8\U0001F1FFCZ_2|996KB/s"
+    port: 443
+    server: 185.216.35.66
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|627KB/s"
-    network: ws
-    port: 8880
-    server: 104.21.15.212
-    type: vless
-    udp: true
-    uuid: 902fd911-ca5d-49a6-99ad-47372a266804
-    ws-opts:
-      headers:
-        Host: young-wildflower-6b6c.100-52d.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /pyip=ProxyIP.JP.CMLiussss.net
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EAEE_1|765KB/s"
-    network: xhttp
-    port: 9443
-    server: 31.76.226.100
     tls: true
-    type: vless
+    type: http
+  - name: "\U0001F1E9\U0001F1F0DK_1|1.1MB/s"
+    port: 443
+    server: 185.245.84.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_2|1000KB/s"
+    port: 9443
+    server: 87.249.132.97
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_3|805KB/s"
+    port: 443
+    server: 149.36.50.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F8\U0001F1EASE_2|1.1MB/s"
+    port: 443
+    server: 146.70.242.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E7\U0001F1EABE_1|982KB/s"
+    port: 443
+    server: 146.70.123.98
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_3|1.7MB/s"
+    port: 443
+    server: 212.102.63.61
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_4|1.9MB/s"
+    port: 443
+    server: 212.102.63.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_5|1.2MB/s"
+    password: None
+    port: 443
+    server: 37.120.233.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: "\U0001F1E9\U0001F1EADE_4|1.7MB/s"
+    password: 2XG9witwk9u9AP7ZPoKluZNL5VBW82xnYgGA/8oHC4I=
+    port: 59924
+    server: 130.61.102.123
+    type: ss
     udp: true
-    uuid: d9d0f208-d582-41d5-bb7b-742671402810
-    xhttp-opts:
-      host: hub-ee-01.hanvpn.cc
-      mode: auto
-      path: /ee01-xhttp-8e47a/
-    xudp: true
-    servername: hub-ee-01.hanvpn.cc
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_1|1.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 3.112.209.209
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1F9\U0001F1EDTH_1|925KB/s"
+    name: "\U0001F1F9\U0001F1EDTH_1|513KB/s"
     port: 443
     reality-opts:
       public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
@@ -172,24 +171,6 @@ proxies:
     uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
     network: tcp
     servername: www.cloudflare.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|581KB/s"
-    network: ws
-    port: 443
-    server: 104.21.16.18
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-    ws-opts:
-      headers:
-        Host: api-gateway-1.f00f.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    xudp: true
-    servername: api-gateway-1.f00f.ccwu.cc
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
