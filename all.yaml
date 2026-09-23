@@ -1,18 +1,129 @@
 proxies:
-    - auth: Xmfo9FkLBCNprxd2Dohi
-      name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
-      password: Xmfo9FkLBCNprxd2Dohi
-      port: 8443
-      server: 143.246.56.172
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - auth: a6cf39b3-0424-42a2-abf7-b426da69b1a4
-      name: "\U0001F1EB\U0001F1EEFI_1|782KB/s"
-      password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s"
+      password: amazonskr05
       port: 443
-      server: de.i-love-russia.online
-      sni: de.i-love-russia.online
+      server: 18.179.111.96
+      type: ss
+    - auth: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+      name: "\U0001F1EB\U0001F1EEFI_1|2.9MB/s"
+      password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+      port: 443
+      server: se1.chromevpn.cc
+      sni: se1.chromevpn.cc
       type: hysteria2
       udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+      password: 19f72087-4591-4d72-930b-2697078ec2be
+      port: 4433
+      server: hk2.xiaoliyu.cyou
+      skip-cert-verify: true
+      type: hysteria2
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      obfs: ""
+      port: 54177
+      protocol: udp
+      server: 5.83.129.90
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
+      password: d9d8d032-4dda-451b-93e3-00a57278eb51
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
+      password: d9d8d032-4dda-451b-93e3-00a57278eb51
+      port: 40041
+      server: kr1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|6.3MB/s"
+      password: d9d8d032-4dda-451b-93e3-00a57278eb51
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_2|8.2MB/s"
+      password: d9d8d032-4dda-451b-93e3-00a57278eb51
+      port: 40073
+      server: tw3.catzl.top
+      type: anytls
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+      network: ws
+      port: 443
+      server: w1.lianjieni.com
+      servername: w1.lianjieni.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a4a49f61-f5c0-4004-94ab-1419d83f9867
+      ws-opts:
+        headers:
+            Host: w1.lianjieni.com
+        path: /cdnws
+    - name: "\U0001F1EF\U0001F1F5JP_2|4.5MB/s"
+      password: d9d8d032-4dda-451b-93e3-00a57278eb51
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - down: ""
+      fingerprint: 8b5ac8eb1c23f208cb6e92bd41407d32994b0668d3ba2b0cd56400dca8c0b843
+      name: "\U0001F1E9\U0001F1EADE_2|3.4MB/s"
+      obfs: salamander
+      obfs-password: V2RayyNGvpn
+      password: v2rayyngvpn
+      port: "443"
+      server: 168.222.43.35
+      skip-cert-verify: false
+      sni: Play.google.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_3|554KB/s"
+      network: tcp
+      port: "57160"
+      reality-opts:
+        public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+        short-id: 77b5
+      server: 77.91.76.156
+      servername: funpay.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_4|1.9MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+      port: "443"
+      server: cze-02.node.lumixnet.com
+      skip-cert-verify: true
+      sni: cze-02.node.lumixnet.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1EEFI_2|2.9MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
+      port: "443"
+      server: de.i-love-russia.online
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
