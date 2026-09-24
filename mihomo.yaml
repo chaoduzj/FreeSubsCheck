@@ -1,92 +1,18 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
-    obfs: salamander
-    obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-    password: 5fa748137b6d822308eea4611f474ad5
-    port: 443
-    server: 155.117.19.17
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_1|964KB/s"
+    obfs: ''
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
     skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|737KB/s"
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: 6ivh.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
-    password: None
-    port: 443
-    server: 37.120.233.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1E8\U0001F1FFCZ_1|2.6MB/s"
-    password: None
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F3\U0001F1F1NL_1|658KB/s"
-    password: None
-    port: 443
-    server: 5.255.118.82
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
-    port: 443
-    server: 149.36.51.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s"
-    network: ws
-    port: 2095
-    server: openai.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: llm-api.sofurry.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
-    port: 443
-    server: 5.255.118.82
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_2|1.7MB/s"
-    password: None
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
+    sni: apple.com
+    type: hysteria
+    up: '500'
+    auth-str: dongtaiwang.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
