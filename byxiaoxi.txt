@@ -1,6 +1,4 @@
-socks://Og%3D%3D@161.35.90.93:1083#🇪🇸ES_1|1.4MB/s
-anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=images.ctfassets.net&insecure=1&udp=1&username=9sK2mP8xQ7vL3nZ6#%F0%9F%87%BA%F0%9F%87%B8US_1%7C666KB%2Fs
-vless://3180f311-16fb-445c-b129-4d946940c21a@aws-jp.webprovider.top:30000?security=reality&type=tcp&packetEncoding=xudp&sni=icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=a8&pbk=Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc#%F0%9F%87%B9%F0%9F%87%BCTW_1%7C3.1MB%2Fs
-vless://3180f311-16fb-445c-b129-4d946940c21a@aws-jp.webprovider.top:30002?security=reality&type=tcp&packetEncoding=xudp&sni=icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=a8&pbk=Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc#%F0%9F%87%AC%F0%9F%87%A7GB_4%7C1.6MB%2Fs
-vless://3180f311-16fb-445c-b129-4d946940c21a@aws-jp.webprovider.top:30001?security=reality&type=tcp&packetEncoding=xudp&sni=icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=a8&pbk=Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C2.2MB%2Fs
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@hk2.xiaoliyu.cyou:4433?insecure=1&sni=hk2.xiaoliyu.cyou#%F0%9F%87%AD%F0%9F%87%B0HK_2%7C1.3MB%2Fs
+hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@62.210.7.139:60111?insecure=1&sni=bing.com#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C2.2MB%2Fs
+hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AADE_1%7C635KB%2Fs
+hysteria2://19f72087-4591-4d72-930b-2697078ec2be@hk2.xiaoliyu.cyou:4433?insecure=1&sni=hk2.xiaoliyu.cyou#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C569KB%2Fs
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@openai.com:2095?security=none&type=ws&path=%2F&host=llm-api.sofurry.dpdns.org&packetEncoding=xudp#%F0%9F%87%BA%F0%9F%87%B8US_1%7C2.2MB%2Fs
