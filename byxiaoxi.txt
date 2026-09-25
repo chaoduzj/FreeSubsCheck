@@ -1,1 +1,1 @@
-vless://bda35755-c838-49c3-a19e-3712f2d54275@163.128.99.14:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=safari&flow=xtls-rprx-vision&sid=e3a4bdfe3d6fd8ec&pbk=-LuhwN_cSgNr7nYIfCcu_XAjviKVSGwVGHxmB-s1AD0#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C2.9MB%2Fs
+vless://596be9d9-0bb9-41bc-bff5-1adb483cbc32@154.9.241.28:443?security=reality&type=tcp&sni=www.amazon.com&fp=qq&flow=xtls-rprx-vision&sid=1ac9bcc4e8fd&pbk=NB_j6YyAs0xI5881v6cfx2jGUKb065ErIrHdOf8ZhVU#%F0%9F%87%BA%F0%9F%87%B8US_1%7C2.9MB%2Fs
