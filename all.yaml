@@ -1,13 +1,14 @@
 proxies:
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-      port: 443
-      reality-opts:
-        public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-        short-id: befa80d97af98b74
-      server: 38.244.20.25
-      servername: www.apple.com
-      tls: true
+    - name: "\U0001F1EE\U0001F1F1IL_1|1.2MB/s"
+      network: ws
+      port: "80"
+      server: platform101.golnamakcert.top
       type: vless
-      uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+      udp: true
+      uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+      ws-opts:
+        headers:
+            Host: platform101.halalkhor.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /platform101
+      xudp: true
