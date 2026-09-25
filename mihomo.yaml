@@ -1,67 +1,23 @@
 proxies:
-  - client-fingerprint: safari
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 54.199.248.166
+    type: ss
+  - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-      short-id: "befa80d97af98b74"
-    server: 38.244.20.25
+      public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
+      short-id: "4679f07417e9feb4"
+    server: 47.253.144.114
     tls: true
     type: vless
-    udp: true
-    uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
-    xudp: true
+    uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
     servername: www.apple.com
-  - name: "\U0001F1FA\U0001F1F8US_2|769KB/s"
-    password: gs4BXwT6SW
-    port: 10988
-    server: 154.26.192.123
-    tls: false
-    type: http
-    username: fQ67Dpe5dU
-  - name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1FFKZ_1|591KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
-      short-id: "7cf408996c82639f"
-    server: kazartip.thewalkingded.life
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-    servername: kazartip.thewalkingded.life
-  - name: ❓Other_1|2.2MB/s
-    password: ''
-    port: 443
-    server: 149.102.245.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
