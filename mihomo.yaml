@@ -1,54 +1,94 @@
 proxies:
-  - auth: 5fa748137b6d822308eea4611f474ad5
-    name: "\U0001F1FA\U0001F1F8US_1|3.8MB/s"
-    obfs: salamander
-    obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-    password: 5fa748137b6d822308eea4611f474ad5
-    port: 443
-    server: 155.117.19.17
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
-    password: None
+  - name: "\U0001F1F3\U0001F1F1NL_1|871KB/s"
     port: 9002
-    server: 138.199.35.195
+    server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|933KB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_3|1008KB/s"
+    port: 9002
+    server: 84.17.47.150
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4|948KB/s"
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|900KB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_6|1.3MB/s"
+    port: 9002
+    server: 84.17.47.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|1.5MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
-      short-id: "b390e0a721d242b0"
-    server: 137.74.16.237
+      public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+      short-id: "9c2378562188c3cb"
+    server: pl.bubahero.com
     tls: true
     type: vless
     udp: true
-    uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     xudp: true
-    servername: www.icloud.com
-  - client-fingerprint: chrome
-    encryption: none
+    servername: pl.bubahero.com
+  - client-fingerprint: edge
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s"
-    network: tcp
+    name: "\U0001F1E9\U0001F1EADE_1|665KB/s"
     port: 443
     reality-opts:
-      public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-      short-id: "a696de84963656de"
-    server: 138.124.121.231
+      public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
+      short-id: "0c13e8822e7f58aa"
+    server: gerwai1488.vvzzkontaktezzvv.garden
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+    uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+    network: tcp
+    servername: gerwai1488.vvzzkontaktezzvv.garden
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F0\U0001F1FFKZ_1|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
+      short-id: "7cf408996c82639f"
+    server: kazartip.thewalkingded.life
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
     xudp: true
-    servername: amd.com
+    servername: kazartip.thewalkingded.life
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
