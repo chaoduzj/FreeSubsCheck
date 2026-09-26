@@ -1,27 +1,29 @@
 proxies:
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|976KB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.205.21.144
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EASE_1|1.8MB/s"
+      password: amazonskr05
+      port: 443
+      server: 51.20.122.188
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|527KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 162.159.136.234
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|807KB/s"
+      network: tcp
+      port: "2063"
+      reality-opts:
+        public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+        short-id: ""
+      server: 31.77.13.19
+      servername: rusbid.de
+      tls: true
+      type: vless
       udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /assignment
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7FR_2|836KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: gf1:gfhysteria2024
-      port: "443"
-      server: 173.212.201.85
-      skip-cert-verify: true
-      sni: www.docker.com
-      type: hysteria2
-      up: ""
+      uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+      xudp: true
