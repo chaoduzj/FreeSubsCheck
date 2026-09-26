@@ -1,8 +1,1 @@
-socks://VDJjbE0wUWxNMFE2Og%3D%3D@121.169.46.116:1090#🇰🇷KR_1|555KB/s
-trojan://humanity@render.com:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C919KB%2Fs
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BARU_1%7C1.7MB%2Fs
-socks://dGVzdDEyMzp0ZXN0MTIz@185.145.99.41:1080#🇳🇱NL_1|801KB/s
-hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=salamander&obfs-password=c13f29db6a638ad2b211b9ce2669ef27&sni=www.bing.com#%F0%9F%87%A8%F0%9F%87%ADCH_1%7C2.3MB%2Fs
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru#%F0%9F%87%B1%F0%9F%87%BBLV_1%7C3.2MB%2Fs
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru#%F0%9F%87%B7%F0%9F%87%BARU_2%7C1.9MB%2Fs
-hysteria2://my_super_password_123@open.2ml.bid:443?insecure=1&sni=open.2ml.bid#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C1.3MB%2Fs
+vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@31.77.13.19:2063?security=reality&type=tcp&packetEncoding=xudp&sni=rusbid.de&fp=chrome&flow=xtls-rprx-vision&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM&encryption=none#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.7MB%2Fs
