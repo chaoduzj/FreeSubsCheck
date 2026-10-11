@@ -1,20 +1,11 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
-    password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-    port: 22069
-    server: ruot.ayucloudservices.nl
-    type: ss
-    udp: true
-  - auth: github.com/Alvin9999-newpac/fanqiang
-    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 43115
-    server: 62.210.147.2
+  - name: "\U0001F1F0\U0001F1F7KR_1|541KB/s"
+    password: ''
+    port: 1090
+    server: 121.169.46.116
     skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
+    type: socks5
+    username: T2clM0QlM0Q6
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
