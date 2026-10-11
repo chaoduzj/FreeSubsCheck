@@ -1,45 +1,20 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|742KB/s"
-    port: 443
-    server: 149.88.21.140
+  - cipher: aes-256-gcm
+    name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
+    password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+    port: 22069
+    server: ruot.ayucloudservices.nl
+    type: ss
+    udp: true
+  - auth: github.com/Alvin9999-newpac/fanqiang
+    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 43115
+    server: 62.210.147.2
     skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_1|2.8MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-      short-id: "051f20c2344a2dfd"
-    server: c20s5.portablesubmarines.com
-    tls: true
-    type: vless
+    sni: www.microsoft.com
+    type: hysteria2
     udp: true
-    uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
-    xudp: true
-    servername: portal.citygrainla.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_1|991KB/s"
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-      short-id: ''
-    server: 104.245.243.2
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff8938c-49b6-b22f-a934-b55e91154ca3
-    xhttp-opts: {}
-    xudp: true
-    servername: cdn.steamstatic.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
