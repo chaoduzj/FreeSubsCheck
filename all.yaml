@@ -1,12 +1,12 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|558KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1|651KB/s"
       port: 9002
       server: 84.17.47.125
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|748KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2|684KB/s"
       password: None
       port: 9002
       server: 84.17.47.125
@@ -14,14 +14,21 @@ proxies:
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|542KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_3|651KB/s"
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_4|665KB/s"
       port: 9002
       server: 84.17.47.148
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|655KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_5|826KB/s"
       password: None
       port: 9002
       server: 84.17.47.148
@@ -29,121 +36,17 @@ proxies:
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|552KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_6|861KB/s"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_7|662KB/s"
       port: 9002
       server: 84.17.47.149
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
-      network: tcp
-      port: 9443
-      reality-opts:
-        public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-        short-id: b390142456517acc
-      server: 38.180.137.143
-      servername: www.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.202
-      skip-cert-verify: true
-      sni: 138.199.35.202
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-      password: null
-      port: 9443
-      server: 87.249.132.97
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s"
-      port: 9002
-      server: 158.173.154.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_3|666KB/s"
-      password: None
-      port: 9002
-      server: 138.199.35.208
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
-      port: 9443
-      server: 149.36.51.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_3|1.5MB/s"
-      port: 9002
-      server: 158.173.154.3
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1EAIE_1|1.7MB/s"
-      port: 9443
-      server: 149.88.96.12
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_1|2.3MB/s
-      port: 9002
-      server: 138.199.35.206
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_4|1.2MB/s"
-      port: 9002
-      server: 158.173.154.4
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7FR_1|793KB/s"
-      port: 4443
-      server: 83.172.143.53
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
-      port: 443
-      server: 212.102.63.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_4|625KB/s"
-      port: 443
-      server: 170.199.233.89
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_2|1.3MB/s
-      port: 9443
-      server: 169.150.199.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1E9ID_1|538KB/s"
-      port: 443
-      server: 103.86.117.202
-      skip-cert-verify: true
-      tls: true
-      type: http
