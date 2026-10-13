@@ -1,38 +1,20 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9cfc9458e48c028ec03ff86ebc71c744
-    port: 50160
-    server: 150-230-252-217.liao.kdns.fr
-    skip-cert-verify: false
-    sni: 150-230-252-217.liao.kdns.fr
-    type: hysteria2
-    up: ''
-  - fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
-    password: 9e98496a-0036-4cc6-8302-3929c29ba772
-    port: 35791
-    server: iijjp.mggl.wang
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: anytls
+  - encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_1|610KB/s"
+    network: ws
+    port: 8880
+    server: 194.76.18.2
+    type: vless
     udp: true
-    username: 9e98496a-0036-4cc6-8302-3929c29ba772
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|823KB/s"
-    obfs: salamander
-    obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-    password: 5fa748137b6d822308eea4611f474ad5
-    port: 443
-    server: 155.117.19.17
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
+    uuid: bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa
+    ws-opts:
+      headers:
+        Host: yellow-mouse-fcce.400-318.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: "/pyip=Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
