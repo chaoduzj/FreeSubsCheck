@@ -1,33 +1,38 @@
 proxies:
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-    port: 9443
-    reality-opts:
-      public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g
-      short-id: "649ab61e575fdbc9"
-    server: 213.165.50.45
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    port: 50160
+    server: 150-230-252-217.liao.kdns.fr
+    skip-cert-verify: false
+    sni: 150-230-252-217.liao.kdns.fr
+    type: hysteria2
+    up: ''
+  - fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s"
+    password: 9e98496a-0036-4cc6-8302-3929c29ba772
+    port: 35791
+    server: iijjp.mggl.wang
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: www.apple.com
+    type: anytls
     udp: true
-    uuid: c3db7657-88ce-42a6-b998-1e0364b277ac
-    network: tcp
-    servername: usa.edgeses.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|3.9MB/s"
+    username: 9e98496a-0036-4cc6-8302-3929c29ba772
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|823KB/s"
+    obfs: salamander
+    obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+    password: 5fa748137b6d822308eea4611f474ad5
     port: 443
-    reality-opts:
-      public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
-      short-id: "56cd2f720d"
-    server: akga01.xyy123.bid
+    server: 155.117.19.17
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 05dd8b4c-c202-406a-a550-31c0b92ba312
-    network: tcp
-    servername: buckeye-retail-website.amazon.com
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
