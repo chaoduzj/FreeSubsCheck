@@ -1,85 +1,176 @@
 proxies:
-  - delay: 948
-    name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
-    port: 9002
-    server: 84.17.47.125
+  - name: "\U0001F1E8\U0001F1FFCZ_1|838KB/s"
+    port: 443
+    server: 185.216.35.130
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 1640
-    name: "\U0001F1F3\U0001F1F1NL_2|553KB/s"
-    port: 9002
-    server: 84.17.47.148
+  - name: "\U0001F1E8\U0001F1EDCH_1|938KB/s"
+    port: 443
+    server: 31.7.62.50
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2285
-    name: "\U0001F1F3\U0001F1F1NL_3|865KB/s"
+  - name: "\U0001F1E7\U0001F1EABE_1|965KB/s"
+    port: 443
+    server: 146.70.123.98
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1F0DK_1|895KB/s"
+    port: 9443
+    server: 185.245.84.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E6\U0001F1F1AL_1|1.1MB/s|K001-260618"
+    port: 9443
+    server: 31.171.155.210
+    skip-cert-verify: true
+    sub_tag: K001-260618
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F4NO_1|901KB/s"
+    port: 9443
+    server: 146.70.170.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_1|694KB/s"
+    port: 9443
+    server: 213.177.229.161
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_2|890KB/s"
+    port: 443
+    server: 79.127.156.177
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+    network: ws
+    port: 2095
+    server: www.epicgames.com
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: openapi.next-ai.us.ci
+      path: /
+  - name: "\U0001F1EE\U0001F1F9IT_1|667KB/s"
+    port: 443
+    server: 185.183.105.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F8RS_1|830KB/s"
+    port: 443
+    server: 146.70.221.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EE\U0001F1EAIE_1|921KB/s"
+    port: 443
+    server: 149.88.96.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_3|805KB/s"
+    port: 443
+    server: 149.36.50.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_1|827KB/s"
+    port: 443
+    server: 185.164.138.156
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
+    port: 443
+    server: 172.64.69.89
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F8RS_2|772KB/s"
+    port: 443
+    server: 146.70.221.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E8\U0001F1FFCZ_2|876KB/s"
+    port: 443
+    server: 185.216.35.66
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
+    port: 443
+    server: 167.88.60.242
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E7\U0001F1E6BA_1|1.7MB/s"
+    port: 443
+    server: 185.164.35.16
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s"
     password: None
-    port: 9002
-    server: 84.17.47.148
+    port: 443
+    server: 37.120.156.34
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2738
-    name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
-    port: 9002
-    server: 84.17.47.149
+  - name: "\U0001F1E8\U0001F1E6CA_1|858KB/s"
+    port: 443
+    server: 206.223.183.13
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 1128
-    name: "\U0001F1F7\U0001F1F4RO_1|719KB/s"
-    port: 9002
-    server: 193.176.84.33
+  - name: "\U0001F1EC\U0001F1E7GB_2|949KB/s"
+    port: 9443
+    server: 84.17.50.129
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 1852
-    name: "\U0001F1F7\U0001F1F4RO_2|1.4MB/s"
-    port: 9002
-    server: 193.176.84.39
+  - name: "\U0001F1E9\U0001F1EADE_4|1.0MB/s"
+    port: 443
+    server: 149.36.50.129
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2067
-    name: "\U0001F1F7\U0001F1F4RO_3|553KB/s"
-    port: 9002
-    server: 193.176.84.30
+  - name: "\U0001F1EC\U0001F1EAGE_1|692KB/s"
+    port: 443
+    server: 195.54.178.210
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 1133
-    name: "\U0001F1F7\U0001F1F4RO_4|1.6MB/s"
-    password: None
-    port: 9002
-    server: 193.176.84.23
+  - name: "\U0001F1EE\U0001F1EAIE_2|1.4MB/s"
+    port: 443
+    server: 149.88.96.12
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 1940
-    name: "\U0001F1F7\U0001F1F4RO_5|647KB/s"
-    port: 9002
-    server: 193.176.84.27
+  - name: "\U0001F1EE\U0001F1F1IL_1|982KB/s"
+    port: 443
+    server: 169.150.248.17
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2149
-    name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s"
-    port: 9002
-    server: 138.199.35.198
+  - name: "\U0001F1FA\U0001F1F8US_4|726KB/s"
+    port: 443
+    server: 68.235.56.59
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2956
-    name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s"
-    password: 'null'
-    port: 9002
-    server: 138.199.35.216
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
