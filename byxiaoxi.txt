@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@60.249.14.95:2377/?plugin=simple-obfs%3Bobfs%3Dtls%3Bobfs-host%3D(Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2)5337fad%3A11915#%F0%9F%87%B9%F0%9F%87%BCTW_1%7C1.1MB%2Fs
+vless://68c3d665-b2b5-4ffb-9f37-9f3d8c47324d@fi-p1.h1cloud.net:25481?security=reality&type=grpc&mode=gun&serviceName=8cb5baa18cd7&sni=www.bing.com&fp=random&sid=3b84fc70657725af&pbk=mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C1.8MB%2Fs
