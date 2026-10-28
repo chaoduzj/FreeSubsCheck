@@ -1,13 +1,8 @@
 proxies:
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|572KB/s"
-      port: 24667
-      protocol: udp
-      server: 62.210.70.191
+    - name: "\U0001F1F3\U0001F1F1NL_1|570KB/s"
+      password: test123
+      port: "1080"
+      server: 185.145.99.41
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria
-      up: 11 Mbps
+      type: socks5
+      username: test123
