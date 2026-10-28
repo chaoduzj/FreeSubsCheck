@@ -1,51 +1,20 @@
 proxies:
-  - alpn:
-      - http/1.1
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EA\U0001F1F8ES_1|522KB/s"
-    network: ws
-    port: 8443
-    server: sinavm.soft10.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 295009c6-5a47-4f77-b9ac-9be24a61da48
-    ws-opts:
-      headers:
-        Host: sinavm.soft10.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
-      path: >-
-        /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    xudp: true
-    servername: sinavm.soft10.ir
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1F5\U0001F1F1PL_1|622KB/s"
-    network: tcp
-    port: 8080
-    server: 82.40.62.170
+  - name: "\U0001F1F0\U0001F1F7KR_1|705KB/s"
+    port: 1080
+    server: 144.24.94.153
     skip-cert-verify: false
     tls: false
-    type: vmess
+    type: http
+  - fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_1|552KB/s"
+    password: 0324fbc29561
+    port: 443
+    server: 654968169.df6h451rh.xin
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: anytls
     udp: true
-    uuid: 68b26471-6252-49f0-9b23-0eb5191d4ea8
-    xudp: true
-  - name: "\U0001F1ED\U0001F1F0HK_1|698KB/s"
-    password: 298c5651d3015d7cee9e8411eaa0bd72
-    port: 12010
-    server: 124.151.45.214
-    servername: apis.99912345.xyz
-    skip-cert-verify: false
-    sni: apis.99912345.xyz
-    type: trojan
-    udp: true
-    network: tcp
+    username: 0324fbc29561
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
